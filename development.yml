@@ -1,0 +1,12 @@
+- hosts: localhost
+  vars:
+    homebrew_packages:
+      - ansible
+      - autoconf
+      - git
+      - openssl
+      - rbenv
+      - readline
+      - ruby-build
+      - sqlite
+      - the_silver_searcher
