@@ -10,3 +10,11 @@
       - ruby-build
       - sqlite
       - the_silver_searcher
+    ruby_gems:
+      - bundler
+      - rails
+      - rake
+      - rspec
+      - rubocop
+      - serverspec
+      - sqlite3

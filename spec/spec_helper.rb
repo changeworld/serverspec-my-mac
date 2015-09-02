@@ -9,7 +9,11 @@ def load_configuration (key)
     package.kind_of?(Hash) ? package['name'] : package
   end
 end
- 
+
 def homebrew_packages
   load_configuration 'homebrew_packages'
+end
+
+def ruby_gems
+  load_configuration 'ruby_gems'
 end
